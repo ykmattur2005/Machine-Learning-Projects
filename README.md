@@ -11,8 +11,6 @@ Self-taught myself Python from Udemy course. The code was completed and compiled
  
 Using a data set received from WWO (World Weather Online), I was able to retrieve data from a specific area in the world (I chose Canazei, Italy for its unique altitude and climate in order to get specific temperature and humidity values useful for predicting variable types of weather). Then, using the Tensorflow library, I created a ML model that I used to predict, given a certain pressure and humidity, whether it would snow.
 
-I used the TinyML cookbook to learn basic Machine Learning principles in order to familiarize myself with data analysis. The code that I used can be found here: https://github.com/PacktPublishing/TinyML-Cookbook/blob/main/Chapter03/ColabNotebooks/preparing_model.ipynb
-
 Once I created the machine learning model, I coded a program in Arduino using C and used the Arduino Nano BLE to collect input data from my surroundings (namely, temperature and humidity) to determine whether it would snow. This is incredibly applicable, since if an ML model can take in input from temperature data and be used to predict weather, it can be replicated for other use cases, for inputting past references to data in order to predict future occurrences of scenarios, simply by using the ML model and some basic input.
 
 I purchased the Arduino Nano BLE sensor from https://store.arduino.cc/products/arduino-nano-33-ble, and I used the Arduino editor https://create.arduino.cc/editor to develop, compile, and run my code. This code is in the Github file as ArduinoCode.c, and it uses Tensorflow to utilize the ML model.
